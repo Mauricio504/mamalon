@@ -181,14 +181,12 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `😙Hola, @${num.split('@')[0]}, _*Bienvenido a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_
-_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_😉
+				teks = `👋¡Hola!, @${num.split('@')[0]}, _*Te doy la Bienvenida a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_
+_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_ *_(✯🪀ՏOᒪO ᘜᗴᑎTᗴ🏆ᗩᑕTIᐯᗩ OK🪀✯_*
 
 ${mdata.desc}
 
 
-*Si quieres hacer uso del bot, primero tienes que registrarte para eso:*
-Usa *${prefix}reg*.`
 				let buff = await getBuffer(ppimg)
 				samu330.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
