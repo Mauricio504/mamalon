@@ -181,10 +181,12 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `👋¡Hola!, @${num.split('@')[0]}, _*Te doy la Bienvenida a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_
+				teks = `👋Hola, @${num.split('@')[0]}, _*Te doy la Bienvenida a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_
 _Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_ *_(✯🪀ՏOᒪO ᘜᗴᑎTᗴ🏆ᗩᑕTIᐯᗩ OK🪀✯_*
 
 ${mdata.desc}
+
+${prefix}▷ ◉────────── 6:14
 
 
 				let buff = await getBuffer(ppimg)
