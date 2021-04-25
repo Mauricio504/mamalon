@@ -186,7 +186,7 @@ _Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_ *_(✯
 
 ${mdata.desc}
 
-${prefix}▷ ◉────────── 6:14
+${prefix}▷ ◉────────── 6:14`
 
 
 				let buff = await getBuffer(ppimg)
