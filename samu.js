@@ -181,8 +181,8 @@ async function starts() {
 				} catch {
 					ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 				}
-				teks = `👋Hola, @${num.split('@')[0]}, _*Te doy la Bienvenida a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨*_
-_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_ *_(✯🪀ՏOᒪO ᘜᗴᑎTᗴ🏆ᗩᑕTIᐯᗩ OK🪀✯_*
+				teks = `_👋🏻¡Hola! @${num.split('@')[0]}, Te doy la Bienvenida a ${mdata.subject}, esperamos que te la pases a gusto en este grupo✨_
+_Recuerda siempre seguir las reglas y mantener una formalidad respetuosa_ *_(✯Solo🔥Activos🍁2021✯_*
 
 ${mdata.desc}
 
@@ -193,9 +193,7 @@ ${prefix}▷ ◉────────── 6:14`
 				samu330.sendMessage(mdata.id, buff, MessageType.image, {caption: teks, contextInfo: {"mentionedJid": [num]}})
 			} else if (anu.action == 'remove') {
 				num = anu.participants[0]
-				teks = `_Weno ps.... amm😪...  @${num.split('@')[0]} se nos fue, ni llorar es bueno:)_
-_*Ojala y le baya bien, y mas despues..... que lo atropelle un tren!!🚉🤣*_
-*No se awiten gente, esten seguros que nadie lo extrañara:D*`
+				teks = `@${num.split('@')[0]}`
 				samu330.sendMessage(mdata.id, teks, MessageType.text,{ contextInfo: {"mentionedJid": [num]}})
 			}
 		} catch (e) {
@@ -2451,7 +2449,7 @@ for (let mem of groupMembers) {
   teks += `┃ @${mem.jid.split('@')[0]}\n`
   members_id.push(mem.jid)
 }
-mentions('〘  *TAGALL* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────✅Samu330🏆────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
+mentions('〘  *TODOS* 〙\n┏━━━━━━━━━━━━━━━━━━━━\n┠⊷'+teks+'┃━━━━━━━━━━━━━━━━━━━━\n┃────UP-O-BAM────\n┗━━━━━━━━━━━━━━━━━━━━', members_id, true)
 break
 
 
